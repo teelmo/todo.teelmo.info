@@ -31,7 +31,7 @@ class App extends Component {
     return (
       <div>
         <div className={style.app}>
-          <h1>Still to do…</h1>
+          <h1>To do with Teemo…</h1>
           <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} checked={true} /> Floating down the Rhone</label>
           <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Museum day in Geneva</label>
           <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Free skiing down a mountain</label>
