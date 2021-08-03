@@ -39,6 +39,7 @@ class App extends Component {
           <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Ping pong tournament</label>
           <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Bains des Pâquis sauna</label>
           <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Hike to Mont Tendre</label>
+          <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Tour de Lac Leman</label>
         </div>
         <div className={style.background}></div>
       </div>
