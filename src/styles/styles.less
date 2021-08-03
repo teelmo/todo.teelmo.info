@@ -1,0 +1,49 @@
+@import 'reset.less';
+@import 'basics.less';
+
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  margin: auto auto;
+  max-width: 600px;
+  padding: 30px 30px;
+  h1 {
+    font-family: Indie Flower;
+    font-size: 60pt;
+    margin-bottom: 20pt;
+    text-decoration: underline;
+  }
+  label {
+    display: block;
+    font-family: Indie Flower;
+    font-size: 30pt;
+    margin-bottom: 10pt;
+    line-height: 30pt;
+    vertical-align: middle;
+    input {
+      height: 20pt;
+      width: 20pt;
+      top: 5px;
+      border: 1px solid #ccc;
+      appearance: none;
+      position: relative;
+      &:checked:disabled {
+        background-color: #000;
+        &:after {
+          content: '✔';
+          position: absolute;
+          width :100%;
+          text-align: center;
+          font-size: 14pt;
+          height: 100%;
+          line-height: 20pt;
+          vertical-align: middle;
+          color: white;
+        }
+      }
+    }
+  }
+}
