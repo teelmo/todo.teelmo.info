@@ -44,6 +44,7 @@ class App extends Component {
           <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Beach Volley at Vessey</label>
           <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Cycle up Salève</label>
           <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Day by the lake w/ friends</label>
+          <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Drink at Grottes Market</label>
         </div>
         <div className={style.background}></div>
       </div>
