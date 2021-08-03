@@ -40,6 +40,9 @@ class App extends Component {
           <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Bains des Pâquis sauna</label>
           <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Hike to Mont Tendre</label>
           <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Tour de Lac Leman</label>
+          <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Course de l'Escalade</label>
+          <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Beach Volley at Vessey</label>
+          <label><input type="checkbox" onClick={() => this.onClick()} disabled={true} /> Cycle up Salève</label>
         </div>
         <div className={style.background}></div>
       </div>
