@@ -180,30 +180,30 @@ body {
   display: block;
   font-family: Indie Flower, Times New Roman;
   font-size: 30pt;
-  margin-bottom: 10pt;
   line-height: 30pt;
+  margin-bottom: 10pt;
   vertical-align: middle;
 }
 .app___2khK2 label input {
-  height: 20pt;
-  width: 20pt;
-  top: 5px;
-  border: 1px solid #ccc;
   appearance: none;
+  border: 1px solid #ccc;
+  height: 20pt;
   position: relative;
+  top: 5px;
+  width: 20pt;
 }
 .app___2khK2 label input:checked:disabled {
   background-color: #000;
 }
 .app___2khK2 label input:checked:disabled:after {
+  color: #fff;
   content: '✔';
-  position: absolute;
-  width: 100%;
-  text-align: center;
   font-size: 14pt;
   height: 100%;
   line-height: 20pt;
+  position: absolute;
+  text-align: center;
   vertical-align: middle;
-  color: white;
+  width: 100%;
 }
 
