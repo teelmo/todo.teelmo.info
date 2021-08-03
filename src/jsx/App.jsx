@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import style from './../styles/styles.less';
 
-import Confetti from 'react-confetti';
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -32,7 +30,9 @@ class App extends Component {
       <div>
         <div className={style.app}>
           <h1>Todo w/ Teemo…</h1>
+          <p>Things to do with Teemo, be active and suggest an activity from below or come up with your own!</p>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} checked={true} /></span> <span className={style.label}>Floating down the Rhone</span></label>
+          <div className={style.done_container}>Thx Jan & et al. &hearts;&hearts;&hearts; Happy to go again!</div>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Museum day in Geneva</span></label>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Free skiing down a mountain</span></label>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Over nighter at a ski resort</span></label>
@@ -45,6 +45,7 @@ class App extends Component {
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Cycle up Salève</span></label>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Day by the lake w/ friends</span></label>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Drink at Grottes Market</span></label>
+          <p><strong>Note:</strong> none are related to food ;)</p>
         </div>
         <div className={style.background}></div>
       </div>
