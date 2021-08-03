@@ -2,23 +2,37 @@
 @import 'basics.less';
 
 body {
-  background-color: #f1f1f1;
   margin: 0;
   padding: 0;
+}
+.background {
+  background-color: #f1f1f1;
+  background-image: url('../../media/img/bg.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 0;
 }
 .app {
   margin: auto auto;
   max-width: 600px;
   padding: 30px 30px;
+  position: relative;
+  z-index: 1;
   h1 {
-    font-family: Indie Flower;
+    font-family: Indie Flower, Times New Roman;
     font-size: 60pt;
     margin-bottom: 20pt;
     text-decoration: underline;
   }
   label {
     display: block;
-    font-family: Indie Flower;
+    font-family: Indie Flower, Times New Roman;
     font-size: 30pt;
     margin-bottom: 10pt;
     line-height: 30pt;

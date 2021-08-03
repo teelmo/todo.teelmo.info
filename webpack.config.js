@@ -26,6 +26,10 @@ module.exports = {
         ]
       },
       {
+        test: /\.(png|jpg)$/,
+        loader: 'url-loader'
+      },
+      {
         test: /\.less$/,
         use: [
           {
@@ -40,7 +44,7 @@ module.exports = {
             options: {
               modules: true,
               sourceMap: true,
-              url: true,
+              url: false,
               localIdentName: "[local]___[hash:base64:5]"
             }
           },
