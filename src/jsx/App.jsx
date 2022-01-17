@@ -35,7 +35,7 @@ class App extends Component {
           <div className={style.done_container}>Thx Jan & et al. ❤️❤️❤️ Happy to go again!</div>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Museum day in Geneva</span></label>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} checked={true}/></span> <span className={style.label}>Free skiing down a mountain</span></label>
-          <div className={style.done_container}>Thx Helena! 🏂🏂</div>
+          <div className={style.done_container}>Thx Helena and Yulia and Dante! ☃️🏂☃️🏂☃️</div>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} checked={true}/></span> <span className={style.label}>Over nighter at a ski resort</span></label>
           <div className={style.done_container}>Thx Helena & Fanny!</div>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Ping pong tournament</span></label>
