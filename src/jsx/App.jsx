@@ -40,7 +40,8 @@ class App extends Component {
           <div className={style.done_container}>Thx Helena/Fanny & Julien!</div>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Ping pong tournament</span></label>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Bains des Pâquis sauna</span></label>
-          <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Hike to Mont Tendre</span></label>
+          <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} checked={true}/></span> <span className={style.label}>Hike to Mont Tendre</span></label>
+          <div className={style.done_container}>Thx Dante and Helena 🥾!</div>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} checked={true}/></span> <span className={style.label}>Tour de Lac Leman</span></label>
           <div className={style.done_container}>Thx Dante 🚲💦🚲💦!</div>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} checked={true}/></span> <span className={style.label}>Course de l'Escalade</span></label>
@@ -48,7 +49,8 @@ class App extends Component {
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Beach Volley at Vessey</span></label>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Cycle up Salève</span></label>
           <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Day by the lake w/ friends</span></label>
-          <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} /></span> <span className={style.label}>Drink at Grottes Market</span></label>
+          <label><span className={style.input_container}><input type="checkbox" onClick={() => this.onClick()} disabled={true} checked={true}/></span> <span className={style.label}>Drink at Grottes Market</span></label>
+          <div className={style.done_container}>Thx familia Sara! 🎉🎉🎉</div>
           <label className={style.extra}><span className={style.input_container}></span> <span className={style.label}>+ Hikes, Badminton, Volleyball, Running, Tabletennis and Everything!</span></label>
           <p><strong>Note:</strong> none are related to food ;)</p>
         </div>
