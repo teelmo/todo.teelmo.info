@@ -1,7 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
+import { createRoot } from 'react-dom/client';
+
 import App from './jsx/App.jsx';
 
-const wrapper = document.getElementById('app-root');
-wrapper ? ReactDOM.render(<App />, wrapper) : false;
-
+const container = document.getElementById('app-root');
+const root = createRoot(container);
+root.render(<App />);

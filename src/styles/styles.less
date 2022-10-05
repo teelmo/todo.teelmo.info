@@ -1,6 +1,8 @@
 @import 'reset.less';
 @import 'basics.less';
 
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower:400.css');
+
 body {
   margin: 0;
   padding: 0;
@@ -54,13 +56,6 @@ body {
     line-height: 30pt;
     margin-bottom: 10pt;
     vertical-align: middle;
-    &.extra {
-      font-size: 26pt;
-      margin: 30pt 0;
-      .label {
-        margin: 0;
-      }
-    }
     .input_container {
       position: absolute;
       input {
@@ -89,6 +84,16 @@ body {
     .label {
       display: inline-block;
       margin-left: 40px;
+    }
+  }
+  div.extra {
+    font-family: Indie Flower, Times New Roman;
+    font-size: 26pt;
+    margin-bottom: 10pt;
+    margin: 30pt 0;
+    vertical-align: middle;
+    .label {
+      margin: 0;
     }
   }
 }
