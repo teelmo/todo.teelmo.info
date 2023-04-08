@@ -65,10 +65,11 @@ function App() {
           <span className="label">Beach Volley at Vessey</span>
         </label>
         <label htmlFor="input-11">
-          <span className="input_container"><input type="checkbox" id="input-11" onClick={() => onClick()} disabled /></span>
+          <span className="input_container"><input type="checkbox" id="input-11" onClick={() => onClick()} disabled checked /></span>
           {' '}
           <span className="label">Cycle up Salève</span>
         </label>
+        <div className="done_container">Thank you Holy Saturday 🐥!</div>
         <label htmlFor="input-12">
           <span className="input_container"><input type="checkbox" id="input-12" onClick={() => onClick()} disabled /></span>
           {' '}
